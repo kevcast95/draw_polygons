@@ -18,7 +18,6 @@ function drawing(polygon) {
 
 function setPoints(e){
     const { offsetX, offsetY  } = e;
-    console.log("x,y",offsetX, offsetY );
     polygon.push(offsetX, offsetY )
     if (complete) {
         polygon = [];
